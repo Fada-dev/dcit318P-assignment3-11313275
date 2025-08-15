@@ -8,8 +8,8 @@ namespace Assignment3
     {
         public static void Main()
         {
-            //new FinanceApp().Run();   // Run Question 1
-            //new HealthSystemApp().Run(); // For Q2
+            // new FinanceApp().Run();
+            // new HealthSystemApp().Run();
             new WareHouseManager().Run();
 
             Console.WriteLine("\nPress any key to exit...");

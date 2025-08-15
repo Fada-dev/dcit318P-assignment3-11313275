@@ -2,6 +2,7 @@
 using Assignment3.Q2;
 using Assignment3.Q3;
 using Assignment3.Q4;
+using Assignment3.Q5;
 
 namespace Assignment3
 {
@@ -12,7 +13,8 @@ namespace Assignment3
             // new FinanceApp().Run();
             // new HealthSystemApp().Run();
             // new WareHouseManager().Run();
-            new StudentResultProcessor().Run();
+            // new StudentResultProcessor().Run();
+            new InventoryApp().Run();
 
             Console.WriteLine("\nPress any key to exit...");
             Console.ReadKey();
